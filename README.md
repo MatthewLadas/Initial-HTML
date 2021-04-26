@@ -7,7 +7,5 @@ Objectives:
 - Apply Basic Elements (Headers, Paragraphs, Lists, Anchors and more)
 - Apply images from local folder and from the internet
 - Linking pages together
-
-* Using comments
-
+- Using comments
 - Document my changes using Git and Github
