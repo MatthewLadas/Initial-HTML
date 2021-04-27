@@ -9,4 +9,5 @@ Objectives:
 - Linking pages together
 - Using comments
 - Applying Semantic HTML
+- Create Tables and Forms
 - Document my changes using Git and Github
