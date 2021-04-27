@@ -8,4 +8,5 @@ Objectives:
 - Apply images from local folder and from the internet
 - Linking pages together
 - Using comments
+- Applying Semantic HTML
 - Document my changes using Git and Github
