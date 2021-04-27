@@ -9,5 +9,6 @@ Objectives:
 - Linking pages together
 - Using comments
 - Applying Semantic HTML
-- Create Tables and Forms
-- Document my changes using Git and Github
+- Create Tables
+- Create Forms (Input types, Labels, ID's, Placeholders, Buttons etc)
+- Document my changes while learning/using Git and Github
