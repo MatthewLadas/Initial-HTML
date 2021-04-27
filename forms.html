@@ -7,14 +7,54 @@
     <title>Forms Demo</title>
   </head>
   <body>
-    <h1>Forms Demo</h1>
+    <main>
+      <h1>Forms Demo</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="forms.html">Forms</a></li>
+          <li><a href="tables.html">Tables</a></li>
+        </ul>
+      </nav>
+      <hr />
 
-    <form action="/tacos">
-      <input type="text" placeholder="username" />
-      <input type="password" placeholder="enter your password" />
-      <input type="color" />
-      <input type="number" placeholder="enter a number" />
-      <input type="radio" />
-    </form>
+      <form action="/pizza" method="GET">
+        <!--The "GET" method shows info in plain text-->
+        <p>
+          <label for="username">Enter a Username</label>
+          <input
+            type="text"
+            placeholder="username"
+            id="username"
+            name="username"
+          />
+        </p>
+        <p>
+          <label for="password">Enter a Password</label>
+          <input
+            type="password"
+            placeholder="enter your password"
+            id="password"
+            name="password"
+          />
+        </p>
+        <p>
+          <label for="color">Choose a Color</label>
+          <input type="color" id="color" name="color" />
+        </p>
+        <p>
+          <label for="number">Enter a Number</label>
+          <input
+            type="number"
+            placeholder="enter a number"
+            id="number"
+            name="num"
+          />
+        </p>
+        <!--The button is associated to the action of the form (/pizza)-->
+        <button>Submit</button>
+      </form>
+    </main>
   </body>
 </html>
