@@ -11,4 +11,5 @@ Objectives:
 - Applying Semantic HTML
 - Create Tables
 - Create Forms (Input types, Labels, ID's, Placeholders, Buttons etc)
+- Adding simple validation to forms (required, pattern, min and max lengths) etc
 - Document my changes while learning/using Git and Github
