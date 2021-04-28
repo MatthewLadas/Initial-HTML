@@ -19,7 +19,7 @@
       </nav>
       <hr />
 
-      <form action="/pizza" method="GET">
+      <form action="index.html" method="GET">
         <!--The "GET" method shows info in plain text-->
         <p>
           <label for="username">Enter a Username</label>
@@ -28,6 +28,7 @@
             placeholder="username"
             id="username"
             name="username"
+            required
           />
         </p>
         <p>
@@ -37,6 +38,9 @@
             placeholder="enter your password"
             id="password"
             name="password"
+            minlength="5"
+            maxlength="10"
+            required
           />
         </p>
         <p>
@@ -58,9 +62,60 @@
       <hr />
       <h2>Exercise Form to search Reddit</h2>
       <form action="https://www.reddit.com/search">
-        <input type="text" name="q" />
-        <button>Search Reddit</button>
+        <label for="search">Actually search Reddit</label>
+        <input type="text" name="q" id="search" />
+        <button>To Reddit</button>
       </form>
+      <hr />
+      <h3>Checkbox</h3>
+      <form action="index.html">
+        <label for="check">Check to go home</label>
+        <input
+          type="checkbox"
+          id="check"
+          name="going home"
+          value="yes please"
+        />
+        <button>Home</button>
+        <hr />
+      </form>
+      <form action="index.html">
+        <h3>Radio Buttons</h3>
+        <p>
+          <input type="radio" name="people" id="Huey" value="Huey" />
+          <label for="Huey">Huey</label>
+        </p>
+        <p>
+          <input type="radio" name="people" id="Louie" value="Louie" />
+          <label for="Louie">Louie</label>
+        </p>
+        <p>
+          <input type="radio" name="people" id="Duey" value="Duey" />
+          <label for="Duey">Duey</label>
+        </p>
+        <p>
+          <label for="excited">How excited are you?</label>
+          <input type="range" id="excited" min="0" max="10" name="excited" />
+        </p>
+        <p>
+          <label for="size">Shirt size</label>
+          <select name="size" id="size">
+            <option value="">--Please select a size--</option>
+            <option value="Small">Small</option>
+            <option value="Med">Medium</option>
+            <option value="Lge">Large</option>
+            <option value="XL">X-Large</option>
+          </select>
+        </p>
+        <button>Submit</button>
+      </form>
+      <hr>
+      <p>
+        <label for="request">Special Requests</label>
+        <p>
+        <textarea name="requests" id="request" cols="30" rows="10" placeholder="Enter text here"></textarea>
+      </p>
+      </p>
     </main>
   </body>
 </html>
